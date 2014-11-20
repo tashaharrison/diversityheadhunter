@@ -19,9 +19,10 @@
 		  <?php endif; ?>
 		</div>
     <?php print render($page['header']); ?>
+	<?php print render($page['navigation']); ?>
 	</div>
   </header>
-	<?php print render($page['navigation']); ?>
+	
   <div class="l-main">
     <div class="l-content" role="main">
       <?php print render($page['highlighted']); ?>

@@ -25,6 +25,13 @@
  *      - Font sizes and families.
  *      - Layout and grid sizing.
  ******************************************************************************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@font-face {
+  font-family: 'Apex New Book';
+  src: url("../fonts/apexnewbookwebfont.eot");
+  src: local("apexnewbookwebfont"), url("../fonts/apexnewbookwebfont.woff") format("woff"), url("../fonts/apexnewbookwebfont.ttf") format("truetype");
+}
+
 /*******************************************************************************
  * _base.scss
 
@@ -39,6 +46,17 @@
  * before adding any more specific customisations you ensure that as any new
  * features are added they will be correctly styled without any extra work.
  ******************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000315}}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000318}}
+h1, h2, h3 {
+  font-family: 'Apex New Book', sans-serif;
+  font-weight: normal;
+}
+
 /*******************************************************************************
  * _layout.scss
  *

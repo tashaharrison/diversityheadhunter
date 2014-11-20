@@ -15,3 +15,11 @@
  *      - Font sizes and families.
  *      - Layout and grid sizing.
  ******************************************************************************/
+@font-face {
+	font-family: 'Apex New Book';
+	src: url('../fonts/apexnewbookwebfont.eot');
+	src: local('apexnewbookwebfont'), url('../fonts/apexnewbookwebfont.woff') format('woff'), url('../fonts/apexnewbookwebfont.ttf') format('truetype');
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+$green: 063c29;
