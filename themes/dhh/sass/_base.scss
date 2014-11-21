@@ -18,16 +18,68 @@ body {
 	font-size: 0.9em;
 }
 h1 {
+	color: $green;
+	font-family: $header-font;
+	font-weight: normal;
+	&.site-name {
+		border: none!important;
+	}
+}
+h2 {
+	color: $green;
 	font-family: $header-font;
 	font-weight: normal;
 }
-h2 {
-	@extend h1;
-}
 h3 {
-	@extend h1;
+	color: $green;
+	font-family: $header-font;
+	font-weight: normal;
 }
 a {
 	color: $green;
 	text-decoration: none;
+}
+.button {
+	background: $green;
+	border-radius: 0.3em;
+	padding: 0.5em 0.8em;
+	cursor: pointer;
+	color: $white;
+	a {
+		color: $white;
+	}
+	&:hover {
+		background: lighten($green, 10%);
+	}
+}
+/***************************************
+	Forms
+****************************************/
+input {
+	border: 1px solid $green;
+	border-radius: 0.4em;
+	padding: 0.4em;
+}
+input[type="submit"] {
+	@extend .button;
+	font-family: $body-font;
+	border: none;
+	margin: 0.5em;
+}
+textarea {
+	@extend input;
+}
+.grippie {
+	display: none!important;
+}
+label {
+	padding-bottom: 0.3em;
+}
+@include at-breakpoint($tab) {
+	input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
+		width: 300px;
+	}
+	textarea {
+		width: 400px!important;
+	}	
 }

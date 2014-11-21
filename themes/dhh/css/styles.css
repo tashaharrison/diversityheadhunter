@@ -56,17 +56,91 @@ body {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000320}}
-h1, h2, h3 {
+h1 {
+  color: #063c29;
+  font-family: "Apex New Book", sans-serif;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000324}}
+h1.site-name {
+  border: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000328}}
+h2 {
+  color: #063c29;
   font-family: "Apex New Book", sans-serif;
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000333}}
+h3 {
+  color: #063c29;
+  font-family: "Apex New Book", sans-serif;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000338}}
 a {
   color: #063c29;
   text-decoration: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000342}}
+.button, input[type="submit"], textarea[type="submit"] {
+  background: #063c29;
+  border-radius: 0.3em;
+  padding: 0.5em 0.8em;
+  cursor: pointer;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000348}}
+.button a, input[type="submit"] a, textarea[type="submit"] a {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000351}}
+.button:hover, input[type="submit"]:hover, textarea[type="submit"]:hover {
+  background: #0b6a49;
+}
+
+/***************************************
+	Forms
+****************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000358}}
+input, textarea {
+  border: 1px solid #063c29;
+  border-radius: 0.4em;
+  padding: 0.4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000363}}
+input[type="submit"], textarea[type="submit"] {
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  margin: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000372}}
+.grippie {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000375}}
+label {
+  padding-bottom: 0.3em;
+}
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000379}}
+  input[type="email"], textarea[type="email"], input[type="number"], textarea[type="number"], input[type="password"], textarea[type="password"], input[type="tel"], textarea[type="tel"], input[type="url"], textarea[type="url"], input[type="text"], textarea[type="text"] {
+    width: 300px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_base\.scss}line{font-family:\0000382}}
+  textarea {
+    width: 400px !important;
+  }
+}
 /*******************************************************************************
  * _layout.scss
  *
@@ -75,6 +149,39 @@ a {
  * components should not be placed here and should instead be kept with the
  * relevant SCSS for that component.
  ******************************************************************************/
+/***************************************
+	Main
+****************************************/
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_layout\.scss}line{font-family:\0000313}}
+  .l-main {
+    margin-top: 2em;
+    min-height: 600px;
+  }
+}
+/***************************************
+	Homepage
+****************************************/
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_layout\.scss}line{font-family:\0000322}}
+  .view-blog-homepage, .view-blog {
+    float: left;
+    width: 55%;
+    margin-right: 3em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_layout\.scss}line{font-family:\0000327}}
+  #block-views-my-background-block-block {
+    float: left;
+    width: 35%;
+  }
+}
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_layout\.scss}line{font-family:\0000333}}
+  .view-blog-homepage, .view-blog {
+    margin-right: 8em;
+  }
+}
 /*******************************************************************************
  * _components.scss
  *
@@ -156,29 +263,108 @@ a {
   }
 }
 /***************************************
-	Menu
+	Footer
 ****************************************/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\0000375}}
+.l-footer {
+  background: #063c29;
+  color: white;
+  height: 75px;
+}
+
+/***************************************
+	Menu
+****************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\0000383}}
 .l-region--navigation {
   background: #063c29;
   margin-top: -1em;
   padding: 0.6em 0 0.7em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\0000388}}
 ul.menu {
   list-style: none;
   text-align: center;
   padding: 0;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\0000393}}
 ul.menu li {
   display: inline-block;
-  padding: 0 1em;
+  padding: 0 2.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\0000397}}
 ul.menu a {
   color: white;
   font-size: 0.9em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\00003100}}
+ul.menu a:hover {
+  color: #bdd8af;
+}
+
+/***************************************
+	Blocks
+****************************************/
+/* Homepage Background & Original Research Blocks */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\00003109}}
+#block-views-my-background-block-block {
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\00003111}}
+#block-views-my-background-block-block h2 {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\00003115}}
+#block-views-my-background-block-block .view-content {
+  margin-bottom: 4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\00003120}}
+#block-views-my-background-block-block .view-footer .views-row a {
+  background: url("../images/bullet.png") no-repeat 0 0.5em;
+  padding-left: 1em;
+}
+
+/* Footer Block */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\00003128}}
+#block-boxes-copyright-notice {
+  text-align: center;
+  padding: 0.3em 0 0;
+}
+
+/***************************************
+	Pages
+****************************************/
+/* Homepage */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\00003137}}
+.view-blog-homepage .views-row, .view-blog .views-row {
+  margin-bottom: 2em;
+  padding-bottom: 3em;
+  border-bottom: 1px solid #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\00003142}}
+.view-blog-homepage .views-field-body, .view-blog .views-field-body {
+  margin-bottom: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\00003145}}
+.view-blog-homepage .views-field-view-node, .view-blog .views-field-view-node {
+  float: right;
+}
+
+/* Blog Category Page */
+/* Blog Page */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\00003155}}
+.node-type-blog-post h1 {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\00003160}}
+.node-type-blog-post #comments .filter-wrapper {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/_components\.scss}line{font-family:\00003163}}
+.node-type-blog-post #comments .grippie {
+  display: none;
 }

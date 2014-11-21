@@ -70,6 +70,14 @@
 	}
 }
 /***************************************
+	Footer
+****************************************/
+.l-footer {
+	background: $green;
+	color: $white;
+	height: 75px;
+}
+/***************************************
 	Menu
 ****************************************/
 .l-region--navigation {
@@ -84,10 +92,76 @@ ul.menu {
 	margin: 0;
 	li {
 		display: inline-block;
-		padding: 0 1em;
+		padding: 0 2.5em;
 	}
 	a {
 		color: $white;
 		font-size: 0.9em;
+		&:hover {
+			color: $hover-green;
+		}
+	}
+}
+/***************************************
+	Blocks
+****************************************/
+/* Homepage Background & Original Research Blocks */
+#block-views-my-background-block-block {
+	text-align: right;
+	h2 {
+		border-bottom: 1px solid $light-grey;
+		padding-bottom: 0.5em;
+	}
+	.view-content {
+		margin-bottom: 4em;
+	}
+	.view-footer {
+		.views-row {
+			a {
+				background: url('../images/bullet.png') no-repeat 0 0.5em;
+				padding-left: 1em;
+			}
+		}
+	}
+}
+/* Footer Block */
+#block-boxes-copyright-notice {
+	text-align: center;
+	padding: 0.3em 0 0;
+}
+/***************************************
+	Pages
+****************************************/
+/* Homepage */
+.view-blog-homepage {
+	.views-row {
+		margin-bottom: 2em;
+		padding-bottom: 3em;
+		border-bottom: 1px solid $light-grey;
+	}
+	.views-field-body {
+		margin-bottom: 1em;
+	}
+	.views-field-view-node {
+		float: right;
+	}
+}
+/* Blog Category Page */
+.view-blog {
+	@extend .view-blog-homepage;
+}
+/* Blog Page */
+.node-type-blog-post {
+	h1 {
+		border-bottom: 1px solid $light-grey;
+		padding-bottom: 0.5em;
+	}
+	#comments {
+		.filter-wrapper {
+			display: none;
+		}
+		.grippie {
+			display: none;
+		}
 	}
 }

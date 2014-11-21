@@ -7,7 +7,7 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000330}}
 .l-header,
 .l-main,
-.l-footer {
+.l-region--footer {
   *zoom: 1;
   max-width: 1190px;
   _width: 1190px;
@@ -20,7 +20,7 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/o4820488215\.ftp\/\.rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
 .l-header:after,
 .l-main:after,
-.l-footer:after {
+.l-region--footer:after {
   content: "";
   display: table;
   clear: both;
@@ -38,7 +38,7 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000345}}
   .l-header,
   .l-main,
-  .l-footer {
+  .l-region--footer {
     max-width: 1190px;
   }
 
@@ -77,22 +77,8 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000378}}
   .l-header,
   .l-main,
-  .l-footer {
+  .l-region--footer {
     max-width: 1190px;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000382}}
-  .l-branding {
-    width: 36.70886%;
-    float: left;
-    margin-right: 1.26582%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000385}}
-  .l-region--header {
-    width: 62.02532%;
-    float: right;
-    margin-right: 0;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000390}}

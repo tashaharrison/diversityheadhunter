@@ -6,3 +6,31 @@
  * components should not be placed here and should instead be kept with the
  * relevant SCSS for that component.
  ******************************************************************************/
+/***************************************
+	Main
+****************************************/
+@include at-breakpoint($tab) {
+	.l-main {
+		margin-top: 2em;
+		min-height: 600px;
+	}
+}
+/***************************************
+	Homepage
+****************************************/
+@include at-breakpoint($tab) {
+	.view-blog-homepage {
+		float: left;
+		width: 55%;
+		margin-right: 3em;
+	}
+	#block-views-my-background-block-block {
+		float: left;
+		width: 35%;
+	}
+}
+@include at-breakpoint($desk) {
+	.view-blog-homepage {
+		margin-right: 8em;
+	}
+}
