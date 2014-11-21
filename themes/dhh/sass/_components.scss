@@ -37,3 +37,57 @@
  *       CSS. Exposed filter forms, views pagers and other views elements are
  *       also good candidates for components.
  ******************************************************************************/
+/***************************************
+	Header
+****************************************/
+.l-header-wrapper {
+	background: url('../images/header-banner-m.jpg') no-repeat center;
+	height: 177px;
+	margin-top: -1em;
+}
+.l-header {
+	height: 177px;
+	padding: 2em;
+}
+
+@include at-breakpoint($tab) {
+	.l-header-wrapper {
+		height: 147px;
+		background: url('../images/header-banner-m.jpg') no-repeat center;
+		margin-top: 0;
+	}
+	.l-header {
+		height: 147px;
+	}
+}
+@include at-breakpoint($desk) {
+	.l-header-wrapper {
+		height: 190px;
+		background: url('../images/header-banner.jpg') no-repeat center;
+	}
+	.l-header {
+		height: 190px;
+	}
+}
+/***************************************
+	Menu
+****************************************/
+.l-region--navigation {
+	background: $green;
+	margin-top: -1em;
+	padding: 0.6em 0 0.7em;
+}
+ul.menu {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	li {
+		display: inline-block;
+		padding: 0 1em;
+	}
+	a {
+		color: $white;
+		font-size: 0.9em;
+	}
+}

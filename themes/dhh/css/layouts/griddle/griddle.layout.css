@@ -42,20 +42,6 @@
     max-width: 1190px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000349}}
-  .l-branding {
-    width: 32.20339%;
-    float: left;
-    margin-right: 1.69492%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000352}}
-  .l-region--header {
-    width: 66.10169%;
-    float: right;
-    margin-right: 0;
-  }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/dhh\/themes\/dhh\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000355}}
   .l-region--navigation {
     clear: both;

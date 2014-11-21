@@ -13,10 +13,12 @@
  * features are added they will be correctly styled without any extra work.
  ******************************************************************************/
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: $body-font;
+	margin: 0;
+	font-size: 0.9em;
 }
 h1 {
-	font-family: 'Apex New Book', sans-serif;
+	font-family: $header-font;
 	font-weight: normal;
 }
 h2 {
@@ -24,4 +26,8 @@ h2 {
 }
 h3 {
 	@extend h1;
+}
+a {
+	color: $green;
+	text-decoration: none;
 }

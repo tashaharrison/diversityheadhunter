@@ -21,5 +21,15 @@
 	src: local('apexnewbookwebfont'), url('../fonts/apexnewbookwebfont.woff') format('woff'), url('../fonts/apexnewbookwebfont.ttf') format('truetype');
 }
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import "susy";
 
-$green: 063c29;
+$tab: 44em 12;
+$desk: 70em 16;
+
+/* Colours */
+$green: #063c29;
+$white: #FFFFFF;
+
+/* Fonts */
+$header-font: 'Apex New Book', sans-serif;
+$body-font: 'Open Sans', sans-serif;
