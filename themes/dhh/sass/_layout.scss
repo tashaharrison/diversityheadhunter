@@ -24,6 +24,15 @@
 		width: 55%;
 		margin-right: 3em;
 	}
+	.node {
+		float: left;
+		width: 55%;
+		margin-right: 4em;
+	}
+	.l-region--sidebar-second {
+		width: 35%;
+		float: left;
+	}
 	#block-views-my-background-block-block {
 		float: left;
 		width: 35%;
@@ -31,6 +40,9 @@
 }
 @include at-breakpoint($desk) {
 	.view-blog-homepage {
+		margin-right: 8em;
+	}
+	.node {
 		margin-right: 8em;
 	}
 }
